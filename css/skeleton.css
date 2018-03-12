@@ -172,9 +172,13 @@ header{
 }
 
 
-  footer{
-     text-align: center;
- }
+footer{
+   text-align: center;
+   background-color: #f4f4f4;
+   position:absolute;
+   width:100%;
+   display: block;
+}
 
 
 /* Typography
@@ -458,7 +462,12 @@ there.
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
-
+   footer{
+      text-align: center;
+      background-color: #f4f4f4;
+      position:absolute;
+      width:100%;
+      display: block;
 
 }
 
