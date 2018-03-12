@@ -196,6 +196,7 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
   h6 { font-size: 1.5rem; }
 }
 
+
 p {
   margin-top: 0; }
 
@@ -513,7 +514,19 @@ there.
       position:absolute;
       width:100%;
       display: block;
+   }
 
+   .u-pull-left{
+      float:left;
+      padding-top: 8em;
+      margin-right:2em;
+   }
+
+   .u-pull-right{
+      float:right;
+      padding-top: 8em;
+      margin-left:2em;
+   }
 }
 
 /* Larger than desktop */
